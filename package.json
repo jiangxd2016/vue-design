@@ -1,0 +1,8 @@
+{
+  "name": "vue-design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jiangxd2016/vue-design.git",
+  "author": "jiangxd <jiangxd2016@gmail.com>",
+  "license": "MIT"
+}
