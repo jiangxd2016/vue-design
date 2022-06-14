@@ -32,4 +32,10 @@ async function build(target) {
     }, target);
   })
 }
-runParallel(2, source, build)
+// runParallel(2, source, build)
+(async()=>{
+  const p = Promise.resolve().then(() => console.log('p1'))
+
+await p
+  
+})()
