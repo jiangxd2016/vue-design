@@ -29,8 +29,6 @@ function render(obj,root){
       }
     });
   }
-  
-
   root.appendChild(el)
 }
 
