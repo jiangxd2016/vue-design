@@ -18,7 +18,6 @@ const vnode = {
   ]
 }
 
-
 function renderer(vNode, container) {
   if (typeof vNode === 'string') {
     container.appendChild(document.createTextNode(vNode));

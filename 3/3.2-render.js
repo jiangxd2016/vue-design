@@ -21,7 +21,6 @@ function render(vNode, container) {
   } else {
     el.appendChild(document.createTextNode(vNode.children));
   }
-
   container.appendChild(el);
 }
 

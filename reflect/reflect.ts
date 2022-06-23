@@ -4,9 +4,7 @@ const CLASS_KEY = 'ioc:key';
 
 function ClassDecorator() {
   return function (target:any) {
-      Reflect.defineMetadata(CLASS_KEY, {
-        metaData: 'metaData',
-      }, target);
+      Reflect.defineMetadata(CLASS_KEY, {metaData: 'metaData'}, target);
       return target;
   };
 }
