@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:jiangxd2016/vue-design.git",
   "author": "jiangxd <jiangxd2016@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
 }
