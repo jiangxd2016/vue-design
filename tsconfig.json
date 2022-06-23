@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "useDefineForClassFields": false,
+    "allowJs": false,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "baseUrl": ".",
+    "jsx": "preserve",
+
+  }
+}
